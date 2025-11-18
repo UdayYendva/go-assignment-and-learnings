@@ -30,7 +30,7 @@ func (a *Student) GetStudentId() int {
 	return a.Id
 }
 
-func (s *Student) ChangeStudentIdWithPointer() { // here it will change the value of Student (id) usimg pointer without creating a copy of it
+func (s *Student) ChangeStudentIdWithPointer() { // here it will change the value of Student (id) usimg pointer without creating a copy of it and address another address for the copy
 	s.Id = 11
 }
 
